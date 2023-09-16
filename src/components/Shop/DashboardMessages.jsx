@@ -12,7 +12,7 @@ import { format } from "timeago.js";
 
 // const ENDPOINT = "http://localhost:4000/";
 
-const ENDPOINT = "https://eshop-socket.vercel.app/";
+const ENDPOINT = "https://test-eshop-socket.vercel.app/";
 
 const socketId = socketIO(ENDPOINT, { transports: ["websocket"] });
 
